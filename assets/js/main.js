@@ -51,6 +51,10 @@ let finalPrice = ticket.toFixed(2);
 alert(`Il prezzo del tuo viaggio è di ${finalPrice} €`);
 console.log(`Il prezzo del tuo viaggio è di ${finalPrice} €`);
 
+if (finalPrice <= 0 ) {
+  location.reload();
+}
+
 
 const finalPriceCounter = document.getElementById("Km");
 finalPriceCounter.innerHTML = `<span>Km da Percorrere ${userKm}</span>
