@@ -58,4 +58,4 @@ finalPriceCounter.innerHTML = `<span>Km da Percorrere ${userKm}</span>
 <span>Età Passeggero: ${userAge}</span>
 <br>
 <span>Il biglietto costerà </span>
-<span style="color: red;">${finalPrice}</span>`
+<span style="color: red;">${finalPrice} &euro</span>`
